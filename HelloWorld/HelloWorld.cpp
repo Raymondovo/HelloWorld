@@ -32,6 +32,7 @@ int main()
 {
 	//The string that you want to print out
 	string printoutStr = "Hello World!";
+	printoutStr = "Do you know who I am?";
 	//Convert to ascii code array
 	int* helloworld = stringToIntArray(printoutStr);
 	printStringArray(helloworld, printoutStr.length());
