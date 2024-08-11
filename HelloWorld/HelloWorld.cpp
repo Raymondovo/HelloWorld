@@ -35,6 +35,7 @@ int main()
 	//Convert to ascii code array
 	int* helloworld = stringToIntArray(printoutStr);
 	printStringArray(helloworld, printoutStr.length());
+	printf("Hello World!\n");
 	return 0;
 }
 
