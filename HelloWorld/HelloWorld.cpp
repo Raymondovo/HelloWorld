@@ -32,10 +32,10 @@ int main()
 {
 	//The string that you want to print out
 	string printoutStr = "Hello World!";
+
 	//Convert to ascii code array
 	int* helloworld = stringToIntArray(printoutStr);
 	printStringArray(helloworld, printoutStr.length());
-	printf("Hello World!\n");
 	return 0;
 }
 
